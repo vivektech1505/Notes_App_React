@@ -43,3 +43,23 @@
     border: 1.5px solid #fff;
     color: #4b1589;
 }
+
+@media (max-width: 768px) {
+    .note {
+        padding: 10px;
+        min-height: 100px;
+    }
+
+    .note_footer {
+        margin-bottom: 10px;
+    }
+
+    .note textarea {
+        font-size: 16px;
+    }
+
+    .note_save {
+        padding: 3px 8px;
+        font-size: 12px;
+    }
+}
